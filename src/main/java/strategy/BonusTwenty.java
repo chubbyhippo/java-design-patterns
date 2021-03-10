@@ -1,6 +1,6 @@
 package strategy;
 
-public class BonusTwenty implements BonusScheme{
+public class BonusTwenty implements BonusScheme {
 
     @Override
     public void applyTo(Money pay) {

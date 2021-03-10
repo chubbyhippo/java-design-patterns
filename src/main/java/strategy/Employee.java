@@ -7,7 +7,7 @@ public class Employee {
         this.bonus = bonus;
     }
 
-    Money totalPay(){
+    Money totalPay() {
         Money pay = calculateBasePay();
 
         // use the strategy
