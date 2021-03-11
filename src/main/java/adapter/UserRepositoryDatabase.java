@@ -1,6 +1,6 @@
 package adapter;
 
-public class UserRepositoryDatabase implements UserRepository{
+public class UserRepositoryDatabase implements UserRepository {
     private final Database db;
 
     public UserRepositoryDatabase(Database db) {

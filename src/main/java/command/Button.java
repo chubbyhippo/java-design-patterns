@@ -10,5 +10,4 @@ public class Button {
     public void onClick() {
         action.execute();
     }
-
 }
